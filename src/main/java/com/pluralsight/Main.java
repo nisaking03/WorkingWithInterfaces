@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        
+
         List<Person> myFamily = new ArrayList<Person>();
         myFamily.add(new Person("Nisa", "King", 22));
         myFamily.add(new Person("Lena", "Belton", 16));
@@ -18,9 +18,9 @@ public class Main {
         Collections.sort(myFamily);
 
         // Display sorted list
-        System.out.println("\nSorted list (by first name):");
-        for (Person person : myFamily) {
-            System.out.println(person);
+        System.out.println("\nSorted list):");
+        for (Person p : myFamily) {
+            System.out.println(p);
 
         }
     }
